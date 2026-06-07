@@ -1,0 +1,36 @@
+Course ID: CS 2600 - Systems Programming
+Professor: David Gershman
+Reviews:
+Professor Gershman gives the feeling that he doesn't really want to teach. He's mentioned multiple times that teaching is a side job for him and it shows. He does the bare minimum and really doesn't care how you do in the class. He talks fast and is very hard to understand, I would honestly not recommend anybody to take his class.
+---
+The prof teaches online and teaches well. The only downside is that you are graded by very few things 3 quizzes, 2 midterms, 1 final. He is very approachable during office hours and very lenient on giving back points. No HW so you need to practice a lot using the schools unix system otherwise the class was really fun and you learn a lot.
+---
+Very test heavy and he loves trick questions, so read carefully. 3 quizzes, 2 midterms, and a final exam. He came up with an extra credit opportunity way toward the end of the semester and there was a make up quiz just in case you needed it. If you have questions, don't count on asking him during class bc those were often cancelled.
+---
+The negative reviews for this professor are not exaggerating. This professor can teach, but he cannot test. Notes and lectures are a little clustered but useful, but exams have nothing to do with your understanding of concepts, are nitpicky and tricky MCQs, and are worth your whole grade. Canceled A LOT. Like, A LOT
+---
+Worst professor I've had at this school. Entire grade is based off of a few tests and quizzes that consist of gimmicky trick questions that don't adequately test your knowledge. Consistently cancels class because he forgets that he has to pick his kids up from school. Avoid at all cost
+---
+if you want an A in this class you better study a lot. Getting a B is fairly easy. Grade is only from three test and 4 quizzes. There is a good chance that some questions on quiz/test will not be on the lecture. Just email him to get back your points. Lecture is recorded, but attending the zoom meetings and asking questions will help A LOT
+---
+Professor Gershman is by far the worst professor at CPP. I didn't learn a thing in his class and always had to do my own research to understand topics. Assigns no homework and is test heavy with trick questions on topics that can hurt your score. Cancelled classes frequently for personal issues. Save yourself the hassle and take someone else.
+---
+Definitely one of the top professors in the school. He explains everything perfectly well and does not go too fast at all. While grades only come from tests, exams, and quizzes, they are all very fair and are not simply just memorizing the notes. Do not be discouraged by the ratings; on the contrary, I highly implore anyone to take this class.
+---
+Your entire grade comes from quizzes (10%) two exams (50%) and the final (40%). If you already know Unix and C, too bad! You didn't put the answer the way he taught in class so you probably cheated. You want to practice? Why? Multiple-choice and fill-in-the-blank questions are clearly the most effective way to learn how to code.
+
+professor: 
+Reviews: Amar Raheja
+Professor explain concepts well but focus on lectures. Try not to miss class b/c topics are pretty hard, especially when you don't know C. Tests are comprehensive and on paper (yes, you write code on paper). Practice Linux commands and programming in C. You'll see the difference. Be brave and ask questions, use Discord, and don't procrastinate.
+---
+This class is difficult, but it teaches you a lot. The material is interesting and you learn most in the lectures. The projects were challenging, but the prof was easy on the grading. The only thing to worry about is the exams, but he does curve them and they are fair. Just study (past exams and the projects) and you will be fine.
+---
+He was nice and explained concepts. I feel like most of the time it was just reading the slides due to the nature of the course. The class had to cover a lot of topics and I struggled trying to memorize topics due to the sheer amount. Definitely exam heavy. Homework and project was doable with notes but I did not do too well on exams.
+---
+get ready to memorize everything, tests are brutal. very difficult to prepare for, no study guide other than "it's on all the things we covered"
+---
+An absolute chad of a professor, class may seem intimidating at first and you may find yourself struggling but I promise you will learn something and be rewarded, underrated professor cannot stress that enough, W.
+---
+I think this was the best 2600 course on campus. His online reviews may have been bad but in person, he rocks and is there to answer and help anyone that has any issue with anything he teaches. Out of all the courses I would advise you to take in person. His would be number one. Right next to cs1300. Only downside is the way Unix is as a system
+---
+Winter class, all his videos were recorded from the past, no zoom meeting. Heavy lectures and lectures are basic learning, but projects and exams are so difficult that feel like never learned. Homework and discussion every unit. Project and homework only grades for completion is bc he has no time to grade! If long semester he will grade details.

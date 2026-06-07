@@ -1,0 +1,30 @@
+Course ID: CS 3310 - Design and Analysis of Algorithms
+Professor: Salam Salloum
+Reviews:
+Don’t, you’ll thank me later. Managed to get johannsen for 3310 but stuck with him for 3650 lol. If I can get into this 3110 class then I'll wait until next semester to take 3650 with another professor
+I’m in 3650 right now, avoid him like the plague. His midterm was awful.
+---
+He's a nice guy but it just seems like he has no passion for teaching anymore. Lectures are incredibly boring and slow. His homework and tests are not structured good; they look messy and confusing. You'll have to teach yourself 100% of the time.
+---
+He'll answer questions if you have them but don't even bother. He is completely unable to effectively teach the topic of the class even though he clearly understands it. Slides are often irrelevant to the homework but copy-pasted code will usually get completion credit.
+---
+This professor is caring and a bit funny but he doesn't really teach anymore. He'd just kind of ask if we had any questions but was pretty bad at explaining things, often explain examples w/o drawing them and then he'd forget/get lost in his own example. The actual content is pretty standard,needs a touch of modernity but overall material was good.
+---
+Salloum focuses on his Power-points instead of the textbook, making them seem random. The course is concept based but not hard to understand, but it gets dry quick. Apply the concepts yourself to practice. He provides ample time for review. Tests are usually based on homework. Do the extra credit. He means well, so try to work with him.
+---
+Lectures are boring and difficult to understand. He seems like he just picks up the lecture from whatever point he feels like and sometimes contradicts himself. Explains poorly, Tests and projects are pretty tricky but he lets you redo the projects as many times as you want for full points, and he's a pretty nice grader.
+
+
+Professor: Yunsheng Wang
+Reviews:
+This is a tough class, 1st exam was esp. rough. But the 2nd and 3rd ones were very fair. Just study/practice problems from the review slides for the best chance. His lectures are honestly boring, but the content is important, so just be sure you understand the practice problems one way or another.
+---
+Boring lecturer, not engaging. He explains the problems, but doesn't do many examples in class. Practice problems on your own to learn. 3 exams, including the final. Final is not cumulative. Before exams, he goes over a review powerpoint; topics on the powerpoint are fairly accurate to exam content. 4-5 questions per exam, so not much wiggle room.
+---
+I loved this professor for Algorithms! He assigns weekly group and biweekly individual homework, often from the textbook. He reviews homework in class and answers questions well. Exams are fair if you study, with reviews and similar practice problems. Challenging, but he truly wants you to learn—highly recommend!
+---
+One of the easier profs but I dont think the quality of education was there. He wasnt good at explaining things and only covered HALF of the material we were supposed to. A strong foundational knowledge of DM is extremely important for cs which is why I am so disappointed. Take him if you want to pass. If you want to learn, take someone else.
+---
+Really great choice for 3310. Nice & caring professor who made an effort to help students learn. Mostly lectured off the slides. Worked through exercises to make concepts easier to grasp. Fair midterms & graded leniently - curved too. Even dedicated a review class before each exam. Not a cakewalk but very doable with practice.
+---
+Your typical (but very good) CS professor. Lectures every class, which can be boring since he talks the whole time. Topics are your basic algorithms in computer science. There are homework which you can do in groups and work together. Programming assignments are individual though. No quizzes, just exams which are not that hard. Grades fairly.

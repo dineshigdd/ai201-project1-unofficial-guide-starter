@@ -1,0 +1,25 @@
+Title: General & Departmental Advice
+Reviews:
+At Cal Poly Pomona, freshmen register for Fall classes during orientation. Choosing the earliest possible date is highly recommended. Later dates mean sections fill up quickly, leaving students stuck with inconvenient 8 AM class times and poorly rated professors.
+---
+For freshman computer science majors at CPP, the primary introductory courses are CS 1300 Discrete Structures and CS 1400 Introduction to Programming. Taking them together in the first semester unlocks CS 2400 Data Structures, which opens up the rest of the curriculum.
+---
+Highly rated computer science professors at Cal Poly Pomona include David Johansson, Yu Sun, Navi, and Eger. Students report learning a lot and having a strong chance at an A. Recommended tools for class scheduling include CPPScheduler and the student CPP CS Discord.
+---
+Computer science students at CPP recommend avoiding these specific professors due to poor ratings: Tony Diaz, Edwin Rodriguez, Dominick Atanasio, Saleem Saleem, Professor Sandler, and Thomas Huang. Class seats reserved for later orientation dates often feature these instructors.
+---
+First generation college students at Cal Poly Pomona can find academic guidance, community, and transition support through the CPP CAMINOS program as well as the Educational Opportunity Program, which provides specialized advisors to help map out major requirements.
+---
+For CS 2400 Data Structures at CPP, students must have a solid foundation in basic Java, including arrays, vectors, and maps. Lacking these fundamentals from prerequisite courses will cause significant struggles, as the advanced material builds directly on those core concepts.
+---
+For CS 2560 C++ Programming at CPP, the course functions primarily as an introduction to C++ syntax and language features rather than complex data structures or algorithms. Students focus on translating their foundational Java knowledge into generic problem-solving projects.
+---
+Computer science majors note that CS 3110 Formal Languages and Automata is widely considered one of the most challenging and difficult upper-division courses in the CPP curriculum, requiring significantly more study time and focus than coding-heavy courses like CS 2560.
+---
+The Cal Poly Pomona CS Undergraduate Seminar operates as a student-led presentation course. Following the first week, an approved student delivers an approximately 40-minute lecture on a computer science topic each session, followed by a 15-minute question-and-answer period.
+---
+In addition to weekly student-led lectures, the CPP CS Undergraduate Seminar requires a comprehensive, long-form technical term paper due at the end of the semester. The paper must focus deeply on the specific computer science topic approved for the student's presentation.
+---
+Prior to Spring 2020, CPP computer science majors could petition to substitute the Undergraduate Seminar with a senior project. The department has since removed this option, making the senior project an elective credit and the seminar course 100 percent mandatory to graduate.
+---
+While faculty choice has a smaller impact on a student-led presentation course, computer science majors at CPP explicitly name professors Thanh Nguyen, Nima Davarpanah, and Salam Salloum as the top three notorious instructors to actively avoid within the department.

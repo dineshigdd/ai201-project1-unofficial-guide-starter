@@ -18,32 +18,33 @@ Student reviews and survival guides for Computer Science professors and classes 
 <!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
      Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
 
-<!-- | # | Source | Description | URL or location |
-|---|--------|-------------|-----------------|
-| 1 | rate my professors | Standardized metrics and student feedback strings for CPP faculty. | https://www.ratemyprofessors.com/school/153 |
-| 2 | reddit | The central hub for student debates, course planning, and syllabus reviews. | https://www.reddit.com/r/CalPolyPomona/ |
-| 3 | the poly post | CPP's student-run newspaper featuring editorials on registration and academic policies. | https://thepolypost.com/ |
-| 4 | cpp uloop | Campus marketplace featuring standalone professor evaluations and student grading metrics. | https://cpp.uloop.com/professors/ |
-| 5 | niche | Long-form student surveys and essay reviews detailing workload management at CPP. | https://www.niche.com/colleges/california-state-polytechnic-university-pomona/ |
-| 6 | gradreports | High-quality text reviews from recent CPP alumni breaking down major departments. | https://www.gradreports.com/colleges/california-state-polytechnic-university-pomona |
-| 7 | appily | Localized student journals detailing specific quarter/semester course experiences. | https://www.appily.com/colleges/california-state-polytechnic-university-pomona/reviews |
-| 8 | unigo | Paragraph-length student responses detailing academic stress and instructor quality. | https://www.unigo.com/colleges/california-state-polytechnic-university-pomona |
-| 9 | college confidential | Student forum threads analyzing academic workloads, gatekeeper classes, and faculty reputations | https://talk.collegeconfidential.com/t/deciding-between-cpp-and/1972220 |
-| 10 | Quora | Text reviews from CPP instructional student assistants and tutors detailing department environments. | https://www.quora.com/How-good-is-computer-science-undergrad-program-at-cal-poly-Pomona |
-|11 | collegevine | Text review |https://www.collegevine.com/faq/20309/uc-riverside-vs-cal-poly-pomona-which-one-for-computer-science|
-| 12 | https://talk.collegeconfidential.com/t/does-cal-poly-pomona-have-a-good-cs-program/2043520/9 -->
-| # | Source | Description | URL or location |
-| :--- | :--- | :--- | :--- |
-| 1 | coursicle | search tool and reviews on courses and professors |https://www.coursicle.com/calpoly/courses/CSC/|
-| 2 | Reddit Thread | most distinguished Computer Science teachers on campus |https://www.reddit.com/r/CalPolyPomona/comments/5epd25/who_are_the_most_distinguished_computer_science/ |
-| 3 | Rate My Professors | reviews about the college. | https://www.ratemyprofessors.com/school/13914 |
-| 4 | Rate My Professors | Student evaluation history tracking foundational programming sequences under Bahram Zartoshty. | https://www.ratemyprofessors.com/professor/1908332 |
-| 5 | Rate My Professors | Academic difficulty reviews and project expectations for computer architecture under Dr. Robert Mcllhenny. | https://www.ratemyprofessors.com/professor/140733 |
-| 6 | Reddit Thread | Community student consensus ranking the absolute hardest upper-division gatekeeper CS courses. | https://www.reddit.com/r/CalPolyPomona/comments/11v36df/hardest_cs_classes_at_cpp/ |
-| 7 | Reddit Thread | Upperclassmen study blueprints and execution tips for passing Assembly Language coding tracks. | https://www.reddit.com/r/CalPolyPomona/comments/9z818b/how_is_cs_2640_with_assembly/ |
-| 8 | College Confidential | Educational board discussions weighing CPP's technical curriculum against other regional engineering universities. | https://talk.collegeconfidential.com/t/deciding-between-cpp-and/1972220 |
-| 9 | GradReports | Post-graduation alumni essays evaluating how effectively the "Learn by Doing" CS curriculum prepared them for software engineering jobs. | https://www.gradreports.com/colleges/california-state-polytechnic-university-pomona |
-| 10 | CPP CSS Homepage | Unofficial hub tracking student-run software projects, technical frameworks, and extracurricular coding workshops. | https://cpp-css.github.io/ |
+| # | Source | Type | URL or file path |
+|---|--------|------|-----------------|
+| 1 | Reddit (ACC 3110) | Discussion Thread | https://www.reddit.com/r/CalPolyPomona/comments/nslt98/acc_3110/ |
+| 2 | RateMyProfessors (ID: 2687117) | Professor Review | https://www.ratemyprofessors.com/professor/2687117 |
+| 3 | Reddit (Fuh Sang vs Dominick Atanasio) | Discussion Thread | https://www.reddit.com/r/CalPolyPomona/comments/7z786g/cs_professor_fuh_sang_or_dominick_atanasio/ |
+| 4 | Reddit (CS 3310 w/ Salloum) | Discussion Thread | https://www.reddit.com/r/CalPolyPomona/comments/9r1haq/cs_3310_w_salloum/ |
+| 5 | RateMyProfessors (ID: 2372423) | Professor Review | https://www.ratemyprofessors.com/professor/2372423 |
+| 6 | RateMyProfessors (ID: 2647317) | Professor Review | https://www.ratemyprofessors.com/professor/2647317 |
+| 7 | RateMyProfessors (ID: 2525429) | Professor Review | https://www.ratemyprofessors.com/professor/2525429 |
+| 8 | RateMyProfessors (ID: 1548624) | Professor Review | https://www.ratemyprofessors.com/professor/1548624 |
+| 9 | RateMyProfessors (ID: 2843849) | Professor Review | https://www.ratemyprofessors.com/professor/2843849 |
+| 10 | RateMyProfessors (ID: 2517026) | Professor Review | https://www.ratemyprofessors.com/professor/2517026 |
+| 11 | RateMyProfessors (ID: 126937) | Professor Review | https://www.ratemyprofessors.com/professor/126937 |
+| 12 | RateMyProfessors (ID: 2322230) | Professor Review | https://www.ratemyprofessors.com/professor/2322230 |
+| 13 | Reddit (Best/Underrated Study Places) | Discussion Thread | https://www.reddit.com/r/CalPolyPomona/comments/tnoob3/bestunderrated_place_to_study_at/ |
+| 14 | RateMyProfessors (ID: 1822204) | Professor Review | https://www.ratemyprofessors.com/professor/1822204 |
+| 15 | Reddit (College Orientation) | Discussion Thread | https://www.reddit.com/r/CalPolyPomona/comments/12wmfuj/college_orientation/ |
+| 16 | Reddit (CS 2560 w/ Nguyen) | Discussion Thread | https://www.reddit.com/r/CalPolyPomona/comments/98faud/cs2560_c_programming_w_nguyen_should_i_drop/ |
+| 17 | Reddit (CS Undergraduate Seminar) | Discussion Thread | https://www.reddit.com/r/CalPolyPomona/comments/i7a7aa/cs_undergraduate_seminar_class/ |
+| 18 | RateMyProfessors (ID: 1030761) | Professor Review | https://www.ratemyprofessors.com/professor/1030761 |
+| 19 | Reddit (CS Advice: Damavandi vs Sang) | Discussion Thread | https://www.reddit.com/r/CalPolyPomona/comments/bzvxz2/cs_advice_for_fall_damavandi_vs_sang/ |
+| 20 | RateMyProfessors (ID: 901042) | Professor Review | https://www.ratemyprofessors.com/professor/901042 |
+| 21 | Uloop (Fang Tang) | Professor Review | https://csupomona.uloop.com/professors/view.php/897658/Fang-Tang |
+| 22 | Uloop (David Dear) | Professor Review | https://csupomona.uloop.com/professors/view.php/41864/David-Dear |
+| 23 | Uloop (Craig Rich) | Professor Review | https://csupomona.uloop.com/professors/view.php/42420/Craig-Rich |
+| 24 | Reddit (Fun Places to Eat/See Near CPP) | Discussion Thread | https://www.reddit.com/r/CalPolyPomona/comments/1jrzs8b/fun_place_to_eat_and_things_to_see_near_cpp/ |
+| 25 | Reddit (Popular Eateries Near Campus) | Discussion Thread | https://www.reddit.com/r/CalPolyPomona/comments/1dmeekw/popular_eateries_places_to_go_onnear_campus/ |
 
 ---
 
@@ -88,11 +89,11 @@ I would choose a moldel with a higher context length, accuracy , and domain-spec
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | What is the hardest core Computer Science courses to pass at cal poly pomona | CS 3110 |
-| 2 | Who is the computer science professors to avoid at cal poly pomona  | Nima Davarpanah,Sallam Salloum, Nhi Nguyen ,Peter Laszlo |
-| 3 | Who are the best and easiest computer science professors in cal poly pomona | Crisrael Lucero,Markus Eger ,Yu Sun , Edwin Rodriguez|
-| 4 | What is the best place to study on campus in cal ploy pomona | The Library Quiet Zones (Floors 1, 5, and 6)|
-| 5 | What is the best time to apply for cal poly pomona | priority filing period from  October 1 to November 30 |
+| 1 | What is considered the hardest core Computer Science course to pass at Cal Poly Pomona ? | CS 4310, CS 3110, CS 3110, CS 4310, CS 3650 |
+| 2 | Which Computer Science professors do students recommend avoiding at Cal Poly  Pomona  ?  | Nima Davarpanah,Sallam Salloum, Nhi Nguyen ,Peter Laszlo |
+| 3 | Who are considered the best Computer Science professors at Cal Poly Pomona to take algorithm and data structures ? | Crisrael Lucero,Markus Eger ,Yu Sun , Edwin Rodriguez|
+| 4 | What is the best place to study on campus at Cal Poly Pomona according to students? | The Library Quiet Zones (Floors 1, 5, and 6)|
+| 5 | What is the best time to apply for admission to Cal Poly Pomona? | priority filing period from  October 1 to November 30 |
 
 ---
 

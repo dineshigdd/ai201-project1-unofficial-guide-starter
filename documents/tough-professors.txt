@@ -1,0 +1,81 @@
+Name: Professor Nima Davarpanah
+Reviews:
+For CS 5800 with Nima Davarpanah, you will not learn much, but the grading is great so you cannot complain.
+---
+In graduate-level CS 5800, Professor Davarpanah does not enjoy teaching and the information is very basic. His notes are terrible and read more like hieroglyphics than English. Most of his lecture examples are just generated straight from ChatGPT.
+---
+Professor Davarpanah is by far the worst professor I have ever had. Please do not take this professor for CS 365. It is completely unclear how he still works at Cal Poly Pomona.
+---
+For CS 365, Professor Davarpanah is impossible to reach outside of class. He assigns reading and then fails to follow it in lecture, and the lectures are unrelated to the assignments. Students have to teach themselves the material, though he does hold office hours.
+---
+For CS 2600, Professor Davarpanah is very busy with his outside job and lacks passion for his students. He is impossible to reach under any circumstances. You will have to learn everything yourself through YouTube and LinkedIn. Do not take him if you do not want to waste your time.
+---
+In CS 2600 with Nima Davarpanah, assignments are not graded until the very end of the semester, so you will not know your performance standing. Expect to teach yourself everything via YouTube. Avoid this class unless you want an incredibly stressful experience playing games with your grade.
+---
+For CS 2600, Professor Davarpanah barely grades anything as the semester progresses, leaving students completely in the dark about their actual grades. While the workload is light for the first few weeks, the other critical reviews about his teaching style are completely accurate.
+---
+Professor Davarpanah ghosted our CS 2600 class for most of the semester, leaving us with some recorded videos and basic LinkedIn Learning pathways. He does not answer emails on time and is unreachable during emergencies. You will learn far more from LinkedIn Learning than from him.
+---
+In CS 4650, we were supposed to meet weekly but Professor Davarpanah only showed up four times. His recorded lectures are messy and hard to read. While he is decent one-on-one, it is clear teaching is not his priority. He is not an easy A and you will learn very little.
+---
+During Spring 2022 for CS 2600, Professor Davarpanah only held live class twice and relied on old lectures. He works full-time at a startup company, which makes him completely unreachable via email. He does not have time to lecture or grade the majority of homework or tests.
+---
+Do not take CS 2600 if you want to learn. His lectures are unorganized, his handwritten notes are confusing, and the structure is messy. He only gives a couple of lectures on C, but expects real-world group projects. He is unreachable unless you message him directly on Teams.
+---
+Stay far away from Professor Davarpanah for CS 2600. The course structure is unorganized and lectures are boring. He made us purchase a 100 dollar Raspberry Pi at the start of the term and we barely used it. Expect entirely self-guided LinkedIn Learning modules instead of live classes.
+---
+Avoid CS 2600 with this professor. It was supposed to be a synchronous class, but he dipped after giving only four lectures. He did not grade anything between midterms and the last day before grades were due, skipping a midterm entirely. Everything is completely do-it-yourself.
+---
+In CS 4650, he primarily recycled video recordings from previous semesters. Most of the assigned reading content came from outdated websites and LinkedIn Learning pathways. It takes him 2 to 3 days to reply on Slack or email, showing little effort to actively teach.
+---
+For CS 210, expect fast-paced lectures and difficult exams. Understanding basic concepts guarantees a C on exams and a B on quizzes. Homework is easy, and writing a journal provides simple extra credit. My 72 percent raw total curved to a B, but I still do not recommend.
+---
+For CS 365, you must be ready to study hard independently if you want to master the material. Professor Davarpanah ensures everyone understands concepts before moving on. He is highly helpful during office hours and lectures. I also took him for CS 210 and CS 264.
+---
+This CS 264 class is not for the faint of heart; it feels designed to quickly weed out struggling students, and he will fail you if you do not perform. That said, Nima is an excellent teacher who clearly understands his subject area. Just do not slack off.
+---
+He is a great professor for CS 210. He makes sure the entire class understands the material before moving forward. The course is not the easiest, but it is not the hardest either. I would happily take his classes again for CS 264 and CS 365.
+
+
+Name: Professor Thanh Nguyen
+Reviews:
+Students widely advise avoiding Professor Thanh Nguyen for computer science courses unless you are a strong self-learner. Reports indicate he moves through complex programming topics incredibly fast during lectures without ensuring the class can keep up with the material.
+---
+Professor Thanh Nguyen's courses are known for a heavy, stressful workload featuring day-one pop quizzes, weekly quizzes, and weekly programming assignments. While his vague project instructions often cause confusion, the high workload forces students to study consistently.
+---
+He answers questions quite rudely, someone asked him why they had to code a certain way and he could only answer with "because I said so". Also for a coding teacher he couldn't figure out why his code would break in the middle of lecture. I got 10 points (out of 100) off a project for not putting enough spaces.
+---
+This was a difficult class for an introductory programming course. His lectures were essentially useless because he would go over one topic quickly and expect you to already know it. The quizzes would come right after he taught something new, leaving no time to practice what he had just taught. Quizzes are given weekly. Two midterms and a final.
+---
+Tests solely based off content from slides, so you don't have to pay attention to lectures if you review the slides before each quiz. Quizzes once a week instead of after each chapter (why). Ignores comments/emails and gives no feedback. Quiz grade depends on his mood that day. Sometimes fair and sometimes taking points off because he can.
+---
+He was a very tough grader with quizzes every Thursday. He expects you to already know some Java despite it being a beginner class. He is very passive aggressive especially when you ask questions. He expects it to be a one and done class essentially going over topics once and expecting the students to have it memorized and learned on the same day.
+
+
+Name: Professor Qichao Dong
+Reviews:
+Professor Qichao Dong is highly recommended for CS 2400, with students noting his course features straightforward projects, an easy final exam, and an accessible grading scale. However, he rarely accepts students off the waitlist due to strictly limited class capacities.
+---
+Classwork was fragmented across multiple platforms. Mainly used Microsoft Teams, grades were not updated on Canvas. Told students to message him on Teams for assignment grades. Was willing to answer questions, but mainly uses ChatGPT to respond. Willing to answer questions, but without AI, would be vague and super broad.
+---
+Genuinely cares about his students, but he CANNOT TEACH. He talks slowly and it's very hard to understand him. Getting an A in his class is easy, because he gives a lot of extra credit and genuinely wants you to get an A. But if you're looking to actually understand and engage in the material in depth he's not for you.
+---
+While the professor is personable, the course structure is hard to navigate. Grades rely heavily on group projects and exams, with no practice problems or study guides provided. Canvas grades were rarely updated, making it hard to track progress. A strong self-study mindset is a must. I would not retake him.
+---
+This instructor does not seem to teach effectively. He insists on using Microsoft Teams instead of Canvas, apparently to be different, but he rarely posts useful information or any study guides on either platform. This makes it difficult for students to follow the course and prepare for exams.
+
+Name: Professor Peter Laszlo
+Reviews:
+Professor Peter Laszlo was considered one of the most brilliant and theoretically knowledgeable computer science professors at CPP. While his courses were intensely difficult and not for the faint of heart, students note that the deep conceptual insight gained was well worth the effort.
+---
+For CS 311, Professor Laszlo held exceptionally high expectations. His lectures were abstract, fast-paced, and required significant self-study to fully grasp. He challenged students with complicated theoretical problems and ran a difficult testing environment with strict grading.
+---
+In upper-division theory classes, Professor Laszlo administered frequent, highly difficult quizzes straight from the textbook. While average scores frequently sat around 25 percent, he applied a massive final grade curve ensuring that the vast majority of working students passed.
+---
+For CS 408, Professor Laszlo required students to master Standard ML thoroughly, as it was the core programming language for the course. Key assignments included the highly complex 8-Queens problem. The final grade weight was 38 percent quizzes, 27 percent midterm, and 35 percent final.
+---
+While Professor Laszlo lacked formal homework, he relied on suggested readings and complex, custom-made logic problems regarding combinations and counting. His testing layout focused entirely on raw conceptual understanding, and he actively curved failing student grades up to a C.
+---
+For foundational theory courses like CS 1300 and CS 301, Professor Laszlo expected heavy independent reading. Students who understood advanced topics like the Taylor Series performed well. He did not assign standard busywork projects, focusing instead on hardcore theoretical learning.
+
+

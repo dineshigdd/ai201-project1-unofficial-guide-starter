@@ -1,0 +1,67 @@
+Name: Professor Fuh Sang
+Reviews:
+Professor Fuh Sang is widely recognized by computer science students as one of the best faculty members at Cal Poly Pomona. Her course sections are highly sought after due to her exceptional reputation and consistent teaching quality across the department.
+---
+In highly theoretical courses like CS 3110 Formal Languages and Automata, Professor Fuh Sang is described as an incredible instructor. She possesses a deep, mastery-level understanding of the curriculum and excels at breaking complex topics down clearly.
+---
+Professor Fuh Sang structures her lectures around heavy practical examples rather than pure theory. Because the curriculum functions like complex logic puzzles, students note that a flexible mind is required, forming study groups is vital, and the course acts as a filter.
+---
+Professor Fuh Sang is highly accessible, provides recorded lectures online, and delivers exceptional study notes. Her course tracking includes weekly coding practice, weekly programming projects, two-attempt weekly checkpoint quizzes, a midterm exam, and a final exam.
+---
+Professor Fuh Sang is highly receptive to student feedback regarding test formatting and provides all necessary resources to master difficult curriculum. She records her classroom lectures and uploads them to the learning management system for streamlined exam preparation.
+---
+Professor Fuh Sang runs a highly organized course schedule with exceptionally clear homework prompts. She explains complex material thoroughly to ensure student comprehension, providing highly granular, detailed feedback on all submitted assignments and examinations.
+
+
+Name: Professor Tannaz Rezaei Damavandi
+Reviews:
+Professor Tannaz Rezaei Damavandi establishes a fair academic environment in her courses. Student feedback indicates that her examinations, homework assignments, and programming projects align accurately with the course expectations and grading criteria.
+---
+Students describe Professor Tannaz Rezaei Damavandi as kind, understanding, and straightforward when presenting course concepts. While her heavy reliance on PowerPoint slides can make lectures dry, her direct teaching style ensures the material remains accessible.
+---
+Professor Tannaz Rezaei Damavandi assigns one programming project and one homework assignment every week alongside two midterms and a final. She utilizes an online digital textbook with mandatory interactive exercises, which costs approximately 77 dollars.
+---
+While Professor Tannaz Rezaei Damavandi aims to teach at a pace suitable for beginners, students note she moves through coding content rapidly. She maintains rigid, exact explanations with unwavering expectations, making her a strong choice for students seeking a challenge.
+
+
+Name: Professor Fang Tang
+Reviews:
+Professor Tang is an awesome teacher that will get rid of any bad impressions you've had about CS. I recommend this teacher over any other professor. She is a great instructor and all of her notes are well organized and easy to read. Her exams never have anything tricky or out of the ordinary. She never throws a curved ball at you.
+---
+I really enjoy Dr Tang's classes. Her lectures are very well organized and to the point. Her tests are well thought out and are based on information given in the lectures.
+---
+She's a decent instructor. Her lectures are well organized, and you can use her notes to study without purchasing the textbook. She gives ample examples and exercises during class period. There are a couple quizzes throughout the quarter based on these exercises. Her exams are very straightforward and easy. As a matter of fact, I find it hard to not get an A in her CS241 class. She also allows students to bring one cheat sheet on the midterm and the final
+---
+Her lectures are all on powerpoint/pdf, but are matched very well with the book and she always tries to involve the class with example questions. Tests are straight forward. As long as you can do the homework yourself, you will be able to handle the tests. 
+---
+She is a good teacher. At times she fails to communicate things correctly, and sometimes gets confused by what you mean, but these occasions are rare. It isn't hard to pass her class, and you will learn a lot from the projects.
+---
+Daisy is a pretty good instructor. CS130 handles many different ideas and she explains them all very well. The homework is harder than the tests which is good. A very good instructor.
+
+
+Name: Professor David Dear
+Reviews:
+This class was online. grade consisted of Midterm, Final, and 3 assignments. Assignments worth 25 points each, the exams were 100 points. The assignments are pretty difficult, but maybe with a tutor, you can get 100% on it. Even though the assignments were difficult, I learned so much!!! I'm glad i took this class. A few of the questions used on the ungraded practice quizes showed up on the exams. Go over power points and read the book.
+---
+This professor is very friendly and super cool! He's laid back and very approachable. But make sure you learn how the entities work because you will need this knowledge for CIS305.
+---
+Mr. Dear is a wonderful teacher. He makes a somewhat challenging subject, easy and approachable. Always dismisses class early. While we worked with peers in small groups, in class, there was no assigned/graded group project. 1 Event Table, 1 Use Case Diagram w/Use Case Narratives, 1 Domain Model, Collaboration and Sequence Diagrams, 1 Class Diagram. Easy tests and final. One of the few CIS teachers who realizes students want to learn something in class AND get a good grade.
+---
+A great professor. This class consisted of 6 projects, 4 exams, and a final. The work load can be intimidating but it is actually pretty straightforward. You'll do a good job as long as it makes sense and it meets all the requirements. The lectures were on powerpoint and are available on his website. He posts the solutions after the project is due. He is a fair grader and has an easy going attitude. Dismisses class early but not sure if that'll happen again after a certain incident. I still definitely recommend his class.
+---
+Let me just start by saying that I am a loud, obnoxious, and cocky student. Professor Dear is by far the best CIS professor maybe the best professor in Cal Poly. He makes a boring subject actually interesting and easy to understand. He probably knows who this is and I want to say thank you for being my professor for cis 101 and cis 310. If the class is open, all of you guys should definitely try to get in and he is a professor that can relate to the students. You won't regret taking him, guaranteed
+
+
+Name : Professor Craig Rich
+Reviews:
+This professor has some major OCD. He'll be moving from one side of the board to the other. His notes are awesome. He goes over the material quite well, providing numerous examples. His curve is mathematically precise; he has a formula to calculate it. He will keep you entertained for sure.
+---
+Just 2 tests, mid-term and a final. All the questions are from lecutre. He already has notes made for the class that you can buy. Each homework he will grade it and give comments to your mistakes.
+---
+Provides lecture notes for each class that you can purchase from the copy & mail center which you basically don't need the book. 2) Whenever the homework has proofs, he will give you some hints on how to solve them. 3) He posts the midterms and finals from the previous quarters so you can get a feel for what the exams are like and usually 2-3 of the same questions will come up on your midterm and final.
+---
+If you take him for this class, it will be all theory. He will only talk about SQL at the last lecture of the quarter. He will give you hints on how to solve the proofs in the homework. He posts the previous midterms and finals so that you can get a feel of what will be on them and usually around 2-3 questions will come from them. The class is graded on a overall curve so beware if the class is doing well.
+---
+Dr. Rich does a fine job of presenting the material. He encourages students to buy his class notes , and follows them, rather than the textbook, for the course. If I were taking it over again, I wouldn't buy the textbook.
+Expect a fair amount of homework/lab assigments,perhaps one every week or two. They are relevant to the material, however, and never struck me as busywork. Exams are open book, and open note, and are designed accordingly (read: they aren't easy). They do, in my opinion, fairly test your knowledge of the subject, however.
+I wouldn't have a problem taking the same course with Dr. Rich again.
