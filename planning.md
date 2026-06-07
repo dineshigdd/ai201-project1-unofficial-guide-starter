@@ -92,8 +92,43 @@ I would choose a moldel with a higher context length, accuracy , and domain-spec
 | 1 | What is considered the hardest core Computer Science course to pass at Cal Poly Pomona ? | CS 4310, CS 3110, CS 3110, CS 4310, CS 3650 |
 | 2 | Which Computer Science professors do students recommend avoiding at Cal Poly  Pomona  ?  | Nima Davarpanah,Sallam Salloum, Nhi Nguyen ,Peter Laszlo |
 | 3 | Who are considered the best Computer Science professors at Cal Poly Pomona to take algorithm and data structures ? | Crisrael Lucero,Markus Eger ,Yu Sun , Edwin Rodriguez|
-| 4 | What is the best place to study on campus at Cal Poly Pomona according to students? | The Library Quiet Zones (Floors 1, 5, and 6)|
-| 5 | What is the best time to apply for admission to Cal Poly Pomona? | priority filing period from  October 1 to November 30 |
+| 4 | What is the best place to study on campus at Cal Poly Pomona according to students? | The University Library 6th Floor, Student Services Building Center Courtyard, The Cave (Building 97)|
+| 5 | What are the best three off-campus dining places near Cal Poly Pomona based on top student reviews? | Koji Ramen, Pho 909, Sugar Rush Cafe |
+
+### Retrieval Test Results
+
+<!-- Ran each question above through retrieve() in embed.py (top-k = 4, cosine
+     similarity on all-MiniLM-L6-v2). Scores are cosine similarity (0-1, higher
+     = more similar). "Retrieval quality" judges whether the chunk that actually
+     answers the question appeared in the top 4. -->
+
+Run with `python eval_retrieval.py` (top-k = 4, cosine similarity).
+
+| # | Question | Top hit (score) | Relevant chunk in top-4? | Retrieval quality |
+|---|----------|-----------------|--------------------------|-------------------|
+| 1 | Hardest core CS course | general-advice — Undergrad Seminar (0.666) | Yes — CS 3110 "one of the most challenging" at rank 2 (0.640) | Partially relevant |
+| 2 | Professors to avoid | general-advice — "highly rated" professors (0.818) | Yes — "recommend avoiding: Tony Diaz, …" at rank 2 (0.727) | Partially relevant |
+| 3 | Best profs for algorithms / data structures | general-advice — highly-rated profs incl. Yu Sun & Eger (0.746) | Partial — names Yu Sun/Eger; Fuh Sang & Yunsheng Wang follow | Partially relevant |
+| 4 | Best place to study on campus | general-advice — Undergrad Seminar (0.636) | No — Library 6th Floor / SSB courtyard / The Cave did **not** make top-4; Farm Store did | Off-target |
+| 5 | Best three off-campus dining places | off-campus-dinning — Farm Store (0.631) | No — retrieves Farm Store, Starbucks, Nambah Cafe; the top-3 (Koji Ramen, Pho 909, Sugar Rush) are absent | Partially relevant |
+
+**Observations:**
+- `general-advice.txt` dominates the top hits across every question — its
+  summary-style sentences are densely on-topic and embed close to almost any
+  CPP/CS query. This crowds out the more specific review chunks.
+- **Q4 (study spots)** is a true retrieval miss: the answers live in
+  `best-places.txt` (Library 6th-floor quiet zones, SSB courtyard, The Cave),
+  but those chunks score below generic advice and the off-campus Farm Store. A
+  shorter query ("best place to study on campus") *did* surface the library at
+  rank 3–4, so the extra words ("at Cal Poly Pomona according to students")
+  pulled the embedding toward generic campus text.
+- **Q5 (off-campus dining)** is **partially relevant**: retrieval correctly
+  lands in `off-campus-dinning.txt`, but returns the chunks that *mention*
+  dining most generically (Farm Store, Starbucks, Nambah Cafe) rather than the
+  three with the strongest student reviews (Koji Ramen, Pho 909, Sugar Rush).
+  The embedding has no notion of "top-rated," so "best three based on top
+  reviews" can't be answered by similarity alone — a candidate for the Failure
+  Case Analysis in README.md.
 
 ---
 
