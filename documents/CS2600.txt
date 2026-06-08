@@ -19,8 +19,8 @@ Definitely one of the top professors in the school. He explains everything perfe
 ---
 Your entire grade comes from quizzes (10%) two exams (50%) and the final (40%). If you already know Unix and C, too bad! You didn't put the answer the way he taught in class so you probably cheated. You want to practice? Why? Multiple-choice and fill-in-the-blank questions are clearly the most effective way to learn how to code.
 
-professor: 
-Reviews: Amar Raheja
+professor: Amar Raheja
+Reviews:
 Professor explain concepts well but focus on lectures. Try not to miss class b/c topics are pretty hard, especially when you don't know C. Tests are comprehensive and on paper (yes, you write code on paper). Practice Linux commands and programming in C. You'll see the difference. Be brave and ask questions, use Discord, and don't procrastinate.
 ---
 This class is difficult, but it teaches you a lot. The material is interesting and you learn most in the lectures. The projects were challenging, but the prof was easy on the grading. The only thing to worry about is the exams, but he does curve them and they are fair. Just study (past exams and the projects) and you will be fine.
