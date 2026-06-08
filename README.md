@@ -96,10 +96,12 @@ In preparing the documents before chunking , I try to keep a similar structure i
      Consider: context length limits, multilingual support, accuracy on domain-specific text,
      latency, and local vs. API-hosted. -->
 
-**Model used:**
+**Model used:** `all-MiniLM-L6-v2`
 
 **Production tradeoff reflection:**
+I would choose a model with a higher context length, high accuracy, and strong performance on domain-specific text. Context length is critical because it allows the model to analyze and extract details from a larger number of student reviews, providing the bigger picture to the user. Models with high accuracy can understand and capture the meaning of two or more sentences written with a different choice of words, understand the distinct context when the same words are used, and provide superior dimensional granularity (the level of detail and nuance the AI can see when it reads a sentence). Because students can use a mix of formal, informal, and slang language, handling domain-specific text is also a critical aspect.
 
+Thus, I would choose a premium model that will make fewer mistakes when finding files, even though its massive capacity is a bit of overkill for my short reviews.
 ---
 
 ## Grounded Generation
