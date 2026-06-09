@@ -114,9 +114,41 @@ Thus, I would choose a premium model that will make fewer mistakes when finding 
      the mechanism. -->
 
 **System prompt grounding instruction:**
+The system prompt contains the following rules:
+
+1. Answer strictly from the CONTEXT — do not use outside or prior knowledge.
+2. If the context lacks enough information, reply with the exact fallback string "I don't have enough information on that."
+3. Do not invent professors, courses, places, or facts not present in the context.
+4. Be concise and base every claim on the provided reviews.
+
+The prompt is implemented in `query.py`:
+
+```python
+FALLBACK = "I don't have enough information on that."
+
+SYSTEM_PROMPT = (
+    "You are The Unofficial Guide, a helpful assistant that answers questions "
+    "about Cal Poly Pomona using ONLY student reviews provided to you.\n"
+    "Rules:\n"
+    "1. Answer strictly from the CONTEXT below. Do NOT use any outside or prior "
+    "knowledge.\n"
+    "2. If the context does not contain enough information to answer the "
+    f"question, reply with exactly: \"{FALLBACK}\"\n"
+    "3. Do not invent professors, courses, places, or facts that are not in the "
+    "context.\n"
+    "4. Be concise and base every claim on the provided reviews."
+)
+
+```
+There are two structural choices:
+
+`Context formatting` — the top-4 retrieved chunks are injected as numbered blocks, each tagged with its source file and subject, so the model sees clearly delimited evidence rather than a blurred wall of text.
+
+`Low-Temperature Configuration:` — I explicitly configured the Groq engine with a low temperature of 0.2. This configuration reduces creative drift, limits the model’s randomness ,and keep the output close to the supplied reviews.
+
 
 **How source attribution is surfaced in the response:**
-
+Sources are stored in a list and ordered by rank. These sources are displayed separately in a textbox within the frontend UI.
 ---
 
 ## Evaluation Report
