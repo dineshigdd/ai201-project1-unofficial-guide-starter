@@ -159,11 +159,12 @@ Sources are stored in a list and ordered by rank. These sources are displayed se
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | What is considered the hardest core Computer Science course to pass at Cal Poly Pomona ? | CS 4310, CS 3110, CS3310, CS 4310, CS 3650 | CS 3110 "one of the most challenging"| Partially relevant | partially accurate |
+| 2 | Which Computer Science professors do students recommend avoiding at Cal Poly Pomona  ?  | Nima Davarpanah,Sallam Salloum, Nhi Nguyen ,Peter Laszlo | Tony Diaz, Edwin Rodriguez, Dominick Atanasio, Saleem Saleem, Sandler, Thomas Huang, Thanh Nguyen |Partially relevant |  Partially accurate |
+| 3 | Who are considered the best Computer Science professors at Cal Poly Pomona to take algorithm and data structures ? | Crisrael Lucero,Markus Eger ,Yu Sun , Edwin Rodriguez| David Johansson, Yu Sun, Navi, Eger, and Professor Fuh Sang(and provides more information )| | Partially relevant || Partially accurate |
+| 4 | What is the best place to study on campus at Cal Poly Pomona according to students? | The University Library 6th Floor, Student Services Building Center Courtyard, The Cave (Building 97)|I don't have enough information on that| Off-target | Accurate |
+| 5 | What are the best three off-campus dining places near Cal Poly Pomona based on top student reviews? | Koji Ramen, Pho 909, Sugar Rush Cafe | Cal Poly Pomona Farm Store (across the street), Nambah Cafe (a little further up near La Verne, basically right across the university)| Off-target  |Inaccurate |
+
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
@@ -184,13 +185,24 @@ Sources are stored in a list and ordered by rank. These sources are displayed se
      results from an unrelated review" is an explanation. -->
 
 **Question that failed:**
-
+`What are the best three off-campus dining places near Cal Poly Pomona based on top student reviews?`
 **What the system returned:**
+`
+Based on the context, the following are mentioned as off-campus dining places near Cal Poly Pomona: 
+1. Cal Poly Pomona Farm Store (across the street)
+2. Nambah Cafe (a little further up near La Verne, basically right across the university)
 
+Starbucks is mentioned, but it's on campus, not off-campus. The Campus Quad is also mentioned, but it's not a dining place. 
+
+Since there are only two off-campus dining places mentioned, I don't have enough information on the third one.
+`
 **Root cause (tied to a specific pipeline stage):**
+The model retrieved chunks from best-places.txt and off-campus-dining.txt. However, these specific documents lacked the necessary context or factual evidence required to rank the 'best three' places. Ideally, the LLM should have strictly adhered to its system instructions and responded with: 'I don't have enough information on that.
 
+The root cause of the issue is a limitation in the text-transformation step. Because the model used to read and process the text has a strict limit on how much text it can look at at one time, it cannot grasp the full idea if the text is too long. If the important dining reviews were placed too far down in the document, they were cut off before being saved. Because the system missed this information, it couldn't understand it and ended up pulling the wrong files.
+ 
 **What you would change to fix it:**
-
+The best way to fix this, within our technical constraints, is to add more information to off-campus-dining.txt and shorten the sentence length. Breaking the reviews into shorter, smaller pieces ensures that the text stays under the limit and does not get cut off, allowing the model to fully grasp the information.
 ---
 
 ## Spec Reflection
@@ -199,6 +211,7 @@ Sources are stored in a list and ordered by rank. These sources are displayed se
      Answer both questions with at least 2–3 sentences each. -->
 
 **One way the spec helped you during implementation:**
+The spec helped me to understand what the system does and how the system functions in detail. I learned the architecture of a RAG system and the steps to build it. Additionally, completing the spec provided me an opportunity to explore the technologies behind these RAG systems, their limitations, and other premium models that I could use in a production environment.
 
 **One way your implementation diverged from the spec, and why:**
 
