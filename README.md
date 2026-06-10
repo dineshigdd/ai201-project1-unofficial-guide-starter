@@ -189,18 +189,20 @@ Sources are stored in a list and ordered by rank. These sources are displayed se
      "The embedding model treated the professor's nickname as out-of-vocabulary and returned
      results from an unrelated review" is an explanation. -->
 
-**Question that failed:**
+**Question that failed:**  
 `What are the best three off-campus dining places near Cal Poly Pomona based on top student reviews?`
-**What the system returned:**
-`
+
+**What the system returned:**  
+
+```
 Based on the context, the following are mentioned as off-campus dining places near Cal Poly Pomona: 
 1. Cal Poly Pomona Farm Store (across the street)
 2. Nambah Cafe (a little further up near La Verne, basically right across the university)
 
 Starbucks is mentioned, but it's on campus, not off-campus. The Campus Quad is also mentioned, but it's not a dining place. 
-
 Since there are only two off-campus dining places mentioned, I don't have enough information on the third one.
-`
+```
+
 **Root cause (tied to a specific pipeline stage):**
 The model retrieved chunks from best-places.txt and off-campus-dining.txt. However, these specific documents lacked the necessary context or factual evidence required to rank the 'best three' places. Ideally, the LLM should have strictly adhered to its system instructions and responded with: 'I don't have enough information on that.
 
