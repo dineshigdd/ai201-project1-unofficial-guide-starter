@@ -244,14 +244,14 @@ The review text itself still respects the 300-character limit, but the subject p
 
 - *What it produced:*  
 
-          | Function Signature | Description |
-          |---|---|
-          | `recursive_split(text: str, separators: list[str]) -> list[str]` | Handles dividing the text into smaller pieces based on natural boundaries without crossing the maximum character limit. |
-          | `_apply_overlap(chunks: list[str]) -> list[str]` | A helper function that attaches text from the tail end of a previous chunk to the next chunk to handle the 30-character overlap strategy. |
-          | `parse_reviews(raw: str) -> list[tuple[str, str]]` | Steps through raw document lines to extract headers (like professor names or locations) and match them up with their specific reviews. |
-          | `flush()` (Nested Function) | A local helper function defined inside `parse_reviews` used to bundle and clean up text segments before saving them to the main tracking list. |
-          | `chunk_document(path: Path) -> list[Chunk]` | Coordinates reading an individual text file, sending it through the parser, breaking it up, and mapping everything to Chunk data objects. |
-          | `ingest(documents_dir: Path = DOCUMENTS_DIR) -> list[Chunk]` | Loops through your entire directory of .txt files to run the chunking process across all files in a batch. |
+| Function Signature | Description |
+|-------------------|-------------|
+| `recursive_split(text: str, separators: list[str]) -> list[str]` | Handles dividing the text into smaller pieces based on natural boundaries without crossing the maximum character limit. |
+| `_apply_overlap(chunks: list[str]) -> list[str]` | A helper function that attaches text from the tail end of a previous chunk to the next chunk to handle the 30-character overlap strategy. |
+| `parse_reviews(raw: str) -> list[tuple[str, str]]` | Steps through raw document lines to extract headers (like professor names or locations) and match them up with their specific reviews. |
+| `flush()` (Nested Function) | A local helper function defined inside `parse_reviews` used to bundle and clean up text segments before saving them to the main tracking list. |
+| `chunk_document(path: Path) -> list[Chunk]` | Coordinates reading an individual text file, sending it through the parser, breaking it up, and mapping everything to Chunk data objects. |
+| `ingest(documents_dir: Path = DOCUMENTS_DIR) -> list[Chunk]` | Loops through your entire directory of `.txt` files to run the chunking process across all files in a batch. |
 
 
 
