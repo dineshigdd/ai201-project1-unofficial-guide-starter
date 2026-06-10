@@ -13,6 +13,7 @@
      Why is this knowledge valuable, and why is it hard to find through official channels?
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
+     
 The topic I chose is `Student reviews and survival guides for Computer Science professors and classes at Cal Poly Pomona.`  
 The reason why I decided to choose this topic is because only past students can share the real experience with prospective students. While students can read about professors on the campus website or LinkedIn, I believe, based on my past experience, that student reviews are very useful for finding a professor who can effectively teach the subject. Student reviews provide a good overall picture of professors' teaching styles, expectations for students, and how challenging a particular course could be.
 ---
