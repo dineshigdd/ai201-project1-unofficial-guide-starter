@@ -190,7 +190,7 @@ Sources are stored in a list and ordered by rank. These sources are displayed se
      results from an unrelated review" is an explanation. -->
 
 **Question that failed:**  
-`What are the best three off-campus dining places near Cal Poly Pomona based on top student reviews?`
+`What are the best three off-campus dining places near Cal Poly Pomona based on top student reviews?`  
 
 **What the system returned:**  
 
