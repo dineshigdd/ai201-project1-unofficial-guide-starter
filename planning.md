@@ -90,7 +90,7 @@ I would choose a moldel with a higher context length, accuracy , and domain-spec
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | What is considered the hardest core Computer Science course to pass at Cal Poly Pomona ? | CS 4310, CS 3110, CS 3110, CS 4310, CS 3650 |
+| 1 | What is considered the hardest core Computer Science course to pass at Cal Poly Pomona ? | CS 4310, CS 3310, CS 3110, CS 4310, CS 3650 |
 | 2 | Which Computer Science professors do students recommend avoiding at Cal Poly  Pomona  ?  | Nima Davarpanah,Sallam Salloum, Nhi Nguyen ,Peter Laszlo |
 | 3 | Who are considered the best Computer Science professors at Cal Poly Pomona to take algorithm and data structures ? | Crisrael Lucero,Markus Eger ,Yu Sun , Edwin Rodriguez|
 | 4 | What is the best place to study on campus at Cal Poly Pomona according to students? | The University Library 6th Floor, Student Services Building Center Courtyard, The Cave (Building 97)|
