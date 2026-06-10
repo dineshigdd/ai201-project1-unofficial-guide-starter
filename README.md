@@ -150,7 +150,7 @@ There are two structural choices:
 `Low-Temperature Configuration:` — I explicitly configured the Groq engine with a low temperature of 0.2. This configuration reduces creative drift, limits the model’s randomness ,and keep the output close to the supplied reviews.
 
 
-**How source attribution is surfaced in the response:**
+**How source attribution is surfaced in the response:**  
 Sources are stored in a list and ordered by rank. These sources are displayed separately in a textbox within the frontend UI.
 ---
 
