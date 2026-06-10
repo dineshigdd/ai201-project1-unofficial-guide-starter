@@ -88,6 +88,7 @@ In preparing the documents before chunking , I try to keep a similar structure i
 | off-campus-dinning.txt | 39 |
 | tough-professors.txt | 42 |
 | **Total** | **253** |
+
 ---
 
 ## Embedding Model
@@ -152,6 +153,7 @@ There are two structural choices:
 
 **How source attribution is surfaced in the response:**  
 Sources are stored in a list and ordered by rank. These sources are displayed separately in a textbox within the frontend UI.
+
 ---
 
 ## Evaluation Report
@@ -206,6 +208,7 @@ The root cause of the issue is a limitation in the text-transformation step. Bec
  
 **What you would change to fix it:**
 The best way to fix this, within our technical constraints, is to add more information to off-campus-dining.txt and shorten the sentence length. Breaking the reviews into shorter, smaller pieces ensures that the text stays under the limit and does not get cut off, allowing the model to fully grasp the information.
+
 ---
 
 ## Spec Reflection
@@ -220,6 +223,7 @@ The spec helped me to understand what the system does and how the system functio
 My planning.md specified a 300-character chunk size, but my actual chunks reach up to 341 characters. The difference comes from a design decision during the implementation. Each review is splited to 300 characters first, then  the review's subject is added (like the professor, place, or course name) to the front of every chunk.
 
 The review text itself still respects the 300-character limit, but the subject prefix pushes the final chunk size slightly over. I accepted this because it directly solves Anticipated Challenge #1. When splitting a long review, a fragment like 'frequently for personal issues' is completely meaningless without knowing it refers to Professor David Gershman. Adding those extra characters preserves the subject connection that strict 300-character chunking would have cut off, which I judged to be more important than holding exactly to the limit
+
 ---
 
 ## AI Usage
