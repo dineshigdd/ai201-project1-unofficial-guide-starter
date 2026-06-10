@@ -232,10 +232,10 @@ The review text itself still respects the 300-character limit, but the subject p
 
 **Instance 1**
 
-- *What I gave the AI:*
+- *What I gave the AI:*  
      I provided code claude with architecture of the system and ask to implement the ingest.py. I prompted to use planning.md to implement the ingestion phase,and include the code in ingest.py. Claude produce the following code ( only the functin signature are listed here). 
 
-- *What it produced:*
+- *What it produced:*  
 
           | Function Signature | Description |
           |---|---|
@@ -248,16 +248,16 @@ The review text itself still respects the 300-character limit, but the subject p
 
 
 
-- *What I changed or overrode:*
+- *What I changed or overrode:*  
      In planning.md, the maximum chunk size is defined as 300 characters. While this is sufficient to hold the actual review text, additional details are added to each chunk to make it more meaningful. After testing and reviewing the code, I decided to keep this implementation because I found it is best to preserve that extra context, even though it means the final chunk size is dynamically modified.
 
 **Instance 2**
 
-- *What I gave the AI:*
-     - I used AI to help prepare the documentation used by ingest.py. First, I used a tool like `Reddinbox` to convert Reddit comments into text. Then, I took this raw text and prompted the AI (Gemini) to organize it into a specific structure I provided. For comments on JavaScript-heavy websites where scraping was difficult, I manually copied and pasted the text and then used the AI to organize it into my required structure.
+- *What I gave the AI:*  
+     I used AI to help prepare the documentation used by ingest.py. First, I used a tool like `Reddinbox` to convert Reddit comments into text. Then, I took this raw text and prompted the AI (Gemini) to organize it into a specific structure I provided. For comments on JavaScript-heavy websites where scraping was difficult, I manually copied and pasted the text and then used the AI to organize it into my required structure.
 
-- *What it produced:*
+- *What it produced:*  
      The AI produced cleanly organized text that followed the exact structure I provided.
 
-- *What I changed or overrode:*
+- *What I changed or overrode:*  
      I changed some of the punctuation, fixed incomplete sentences, and adjusted a few headings. When making these changes, I was very careful not to alter the original meaning of the reviews. Ultimately, the adjustments I had to make were minor.
