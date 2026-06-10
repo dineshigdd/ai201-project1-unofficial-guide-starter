@@ -218,10 +218,10 @@ The best way to fix this, within our technical constraints, is to add more infor
 <!-- Reflect on how planning.md shaped your implementation.
      Answer both questions with at least 2–3 sentences each. -->
 
-**One way the spec helped you during implementation:**
+**One way the spec helped you during implementation:**  
 The spec helped me to understand what the system does and how the system functions in detail. I learned the architecture of a RAG system and the steps to build it. Additionally, completing the spec provided me an opportunity to explore the technologies behind these RAG systems, their limitations, and other premium models that I could use in a production environment.
 
-**One way your implementation diverged from the spec, and why:**
+**One way your implementation diverged from the spec, and why:**  
 My planning.md specified a 300-character chunk size, but my actual chunks reach up to 341 characters. The difference comes from a design decision during the implementation. Each review is splited to 300 characters first, then  the review's subject is added (like the professor, place, or course name) to the front of every chunk.
 
 The review text itself still respects the 300-character limit, but the subject prefix pushes the final chunk size slightly over. I accepted this because it directly solves Anticipated Challenge #1. When splitting a long review, a fragment like 'frequently for personal issues' is completely meaningless without knowing it refers to Professor David Gershman. Adding those extra characters preserves the subject connection that strict 300-character chunking would have cut off, which I judged to be more important than holding exactly to the limit
