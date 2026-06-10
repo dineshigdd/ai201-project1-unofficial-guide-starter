@@ -214,7 +214,9 @@ The best way to fix this, within our technical constraints, is to add more infor
 The spec helped me to understand what the system does and how the system functions in detail. I learned the architecture of a RAG system and the steps to build it. Additionally, completing the spec provided me an opportunity to explore the technologies behind these RAG systems, their limitations, and other premium models that I could use in a production environment.
 
 **One way your implementation diverged from the spec, and why:**
+My planning.md specified a 300-character chunk size, but my actual chunks reach up to 341 characters. The difference comes from a design decision during the implementation. Each review is splited to 300 characters first, then  the review's subject is added (like the professor, place, or course name) to the front of every chunk.
 
+The review text itself still respects the 300-character limit, but the subject prefix pushes the final chunk size slightly over. I accepted this because it directly solves Anticipated Challenge #1. When splitting a long review, a fragment like 'frequently for personal issues' is completely meaningless without knowing it refers to Professor David Gershman. Adding those extra characters preserves the subject connection that strict 300-character chunking would have cut off, which I judged to be more important than holding exactly to the limit
 ---
 
 ## AI Usage
@@ -231,11 +233,31 @@ The spec helped me to understand what the system does and how the system functio
 **Instance 1**
 
 - *What I gave the AI:*
+     I provided code claude with architecture of the system and ask to implement the ingest.py. I prompted to use planning.md to implement the ingestion phase,and include the code in ingest.py. Claude produce the following code ( only the functin signature are listed here). 
+
 - *What it produced:*
+
+          | Function Signature | Description |
+          |---|---|
+          | `recursive_split(text: str, separators: list[str]) -> list[str]` | Handles dividing the text into smaller pieces based on natural boundaries without crossing the maximum character limit. |
+          | `_apply_overlap(chunks: list[str]) -> list[str]` | A helper function that attaches text from the tail end of a previous chunk to the next chunk to handle the 30-character overlap strategy. |
+          | `parse_reviews(raw: str) -> list[tuple[str, str]]` | Steps through raw document lines to extract headers (like professor names or locations) and match them up with their specific reviews. |
+          | `flush()` (Nested Function) | A local helper function defined inside `parse_reviews` used to bundle and clean up text segments before saving them to the main tracking list. |
+          | `chunk_document(path: Path) -> list[Chunk]` | Coordinates reading an individual text file, sending it through the parser, breaking it up, and mapping everything to Chunk data objects. |
+          | `ingest(documents_dir: Path = DOCUMENTS_DIR) -> list[Chunk]` | Loops through your entire directory of .txt files to run the chunking process across all files in a batch. |
+
+
+
 - *What I changed or overrode:*
+     In planning.md, the maximum chunk size is defined as 300 characters. While this is sufficient to hold the actual review text, additional details are added to each chunk to make it more meaningful. After testing and reviewing the code, I decided to keep this implementation because I found it is best to preserve that extra context, even though it means the final chunk size is dynamically modified.
 
 **Instance 2**
 
 - *What I gave the AI:*
+     - I used AI to help prepare the documentation used by ingest.py. First, I used a tool like `Reddinbox` to convert Reddit comments into text. Then, I took this raw text and prompted the AI (Gemini) to organize it into a specific structure I provided. For comments on JavaScript-heavy websites where scraping was difficult, I manually copied and pasted the text and then used the AI to organize it into my required structure.
+
 - *What it produced:*
+     The AI produced cleanly organized text that followed the exact structure I provided.
+
 - *What I changed or overrode:*
+     I changed some of the punctuation, fixed incomplete sentences, and adjusted a few headings. When making these changes, I was very careful not to alter the original meaning of the reviews. Ultimately, the adjustments I had to make were minor.
