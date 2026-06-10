@@ -95,41 +95,6 @@ I would choose a moldel with a higher context length, accuracy , and domain-spec
 | 4 | What is the best place to study on campus at Cal Poly Pomona according to students? | The University Library 6th Floor, Student Services Building Center Courtyard, The Cave (Building 97)|
 | 5 | What are the best three off-campus dining places near Cal Poly Pomona based on top student reviews? | Koji Ramen, Pho 909, Sugar Rush Cafe |
 
-### Retrieval Test Results
-
-<!-- Ran each question above through retrieve() in embed.py (top-k = 4, cosine
-     similarity on all-MiniLM-L6-v2). Scores are cosine similarity (0-1, higher
-     = more similar). "Retrieval quality" judges whether the chunk that actually
-     answers the question appeared in the top 4. -->
-
-Run with `python eval_retrieval.py` (top-k = 4, cosine similarity).
-
-| # | Question | Top hit (score) | Relevant chunk in top-4? | Retrieval quality |
-|---|----------|-----------------|--------------------------|-------------------|
-| 1 | Hardest core CS course | general-advice — Undergrad Seminar (0.666) | Yes — CS 3110 "one of the most challenging" at rank 2 (0.640) | Partially relevant |
-| 2 | Professors to avoid | general-advice — "highly rated" professors (0.818) | Yes — "recommend avoiding: Tony Diaz, …" at rank 2 (0.727) | Partially relevant |
-| 3 | Best profs for algorithms / data structures | general-advice — highly-rated profs incl. Yu Sun & Eger (0.746) | Partial — names Yu Sun/Eger; Fuh Sang & Yunsheng Wang follow | Partially relevant |
-| 4 | Best place to study on campus | general-advice — Undergrad Seminar (0.636) | No — Library 6th Floor / SSB courtyard / The Cave did **not** make top-4; Farm Store did | Off-target |
-| 5 | Best three off-campus dining places | off-campus-dinning — Farm Store (0.631) | No — retrieves Farm Store, Starbucks, Nambah Cafe; the top-3 (Koji Ramen, Pho 909, Sugar Rush) are absent | Partially relevant |
-
-**Observations:**
-- `general-advice.txt` dominates the top hits across every question — its
-  summary-style sentences are densely on-topic and embed close to almost any
-  CPP/CS query. This crowds out the more specific review chunks.
-- **Q4 (study spots)** is a true retrieval miss: the answers live in
-  `best-places.txt` (Library 6th-floor quiet zones, SSB courtyard, The Cave),
-  but those chunks score below generic advice and the off-campus Farm Store. A
-  shorter query ("best place to study on campus") *did* surface the library at
-  rank 3–4, so the extra words ("at Cal Poly Pomona according to students")
-  pulled the embedding toward generic campus text.
-- **Q5 (off-campus dining)** is **partially relevant**: retrieval correctly
-  lands in `off-campus-dinning.txt`, but returns the chunks that *mention*
-  dining most generically (Farm Store, Starbucks, Nambah Cafe) rather than the
-  three with the strongest student reviews (Koji Ramen, Pho 909, Sugar Rush).
-  The embedding has no notion of "top-rated," so "best three based on top
-  reviews" can't be answered by similarity alone — a candidate for the Failure
-  Case Analysis in README.md.
-
 ---
 
 ## Anticipated Challenges
@@ -138,9 +103,9 @@ Run with `python eval_retrieval.py` (top-k = 4, cosine similarity).
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1. Incomplte reviews , chunks that would cut off critical information
+1. Incomplete sentences and complicated punctuation could result in challenges when separating chunks, which could lead to sentences being cut mid-thought and missing critical information
 
-2. Too many slang , ironic use of words, 
+2. Reviews and comments are not always focused on a single topic. For example, a student might ask a question about a specific class, but the replies often include details that are completely irrelevant to the original post. Reddit threads are highly informal; students frequently drift into discussions about unrelated classes, different professors, other universities, or even personal experiences that have nothing to do with the question raised. This makes preparing the documents much more challenging, as these off-topic comments can introduce noise into the database and mislead the model during retrieval.
 
 ---
 
@@ -168,7 +133,19 @@ Run with `python eval_retrieval.py` (top-k = 4, cosine similarity).
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
+- **AI Tools:** Claude Code, Gemini (to prepare documents)
+- **Input:** `planning.md` and other necessary inputs based on project requirements
+- **Output:** `ingest.py`, which contains the code that transforms text files in the `documents` folder into highly organized chunks
+- **Verification:** Reviewed and tested the generated code, using `planning.md` as a guideline to check if the AI produced the intended output
 
 **Milestone 4 — Embedding and retrieval:**
+- **AI Tools:** `all-MiniLM-L6-v2` via `sentence-transformers`, Claude Code
+- **Input:** Chunks produced from Milestone 3, `planning.md`, and the project architecture guidelines
+- **Output:** `embed.py`, a script designed to load an embedding model, initialize a local vector database, and provide a basic mechanism to query and retrieve relevant text snippets
+- **Verification:** Run a test query—for example, "What is the best place to study on campus at Cal Poly Pomona according to students?"—and check the top-k retrieved chunks from ChromaDB against anticipated answers to ensure the vector store successfully isolates the most semantically relevant information before passing it to an LLM in the next stage
 
 **Milestone 5 — Generation and interface:**
+- **AI Tools:** Claude Code (for development) and Groq API
+- **Input:** User query, the top-k text chunks retrieved from `embed.py`, and a structured system prompt
+- **Output:** `app.py`, which handles the Groq API client connection, provides an interactive UI, and lists the sources used
+- **Verification:** Run the evaluation questions through the full pipeline to verify that Groq synthesizes the retrieved chunks into fast, natural, and accurately grounded student answers while maintaining low latency
